@@ -1,0 +1,134 @@
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.color {
+   background-color: #bed2eead;
+}
+
+.seamless-b {
+   background: url("../img/fish.png") center / auto auto repeat;
+   min-height: 1140px;
+   margin-bottom: 60px;
+   padding-top: 510px;
+   padding-bottom: 510px;
+}
+
+.seamless-b-block {
+   background-color: #fff;
+   margin: 0 auto;
+   max-width: 1297px;
+   padding: 30px;
+}
+
+.seamless-b-text {
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+.seamless-b-x {
+   background: url("../img/fish.png") center / auto auto repeat-x;
+   min-height: 400px;
+   margin-bottom: 60px;
+   padding-top: 150px;
+   padding-bottom: 152px;
+}
+
+.seamless-b-x-block {
+   background-color: #fff;
+   max-width: 880px;
+   margin: 0 auto;
+   padding: 30px;
+}
+
+.seamless-b-x-text {
+   font-size: 38px;
+   text-transform: uppercase;
+}
+
+.seamless-b-y {
+   background: url("../img/fish.png") 50% 0 / auto auto repeat-y;
+   min-height: 1000px;
+   padding-top: 500px;
+   padding-bottom: 450px;
+}
+
+.seamless-b-y-block {
+   background-color: #fff;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 30px;
+}
+
+.seamless-b-y-text {
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+.seamless-block {
+   min-height: 900px;
+   background: url("../img/memes.png") 15% center / 150px 150px no-repeat fixed,
+      url("../img/memes.png") 85% center / 150px 150px no-repeat fixed,
+      linear-gradient(
+         285deg,
+         hsl(284deg 79% 35%) 0%,
+         hsl(279deg 79% 37%) 22%,
+         hsl(274deg 80% 38%) 36%,
+         hsl(270deg 81% 40%) 46%,
+         hsl(266deg 81% 42%) 55%,
+         hsl(262deg 82% 43%) 64%,
+         hsl(259deg 82% 45%) 74%,
+         hsl(255deg 82% 46%) 85%,
+         hsl(251deg 83% 48%) 100%
+      );
+   padding: 70px 0;
+}
+
+.seamless-block-over {
+   margin: 0 auto;
+   max-width: 650px;
+   background: url("../img/3d.jpg") center center / 100px 100px no-repeat fixed, url("../img/fish-1.png") center center;
+   border: 30px solid rgba(183, 0, 255, 0.671);
+   border-radius: 30px;
+   overflow: auto;
+   max-height: 700px;
+   padding: 30px;
+}
+
+.seamless-block-over img {
+   display: block;
+   margin: 0 auto;
+   width: 350px;
+   height: 350px;
+}
+
+.seamless-block-over p {
+   font-size: 60px;
+   color: rgba(255, 9, 91, 0.274);
+   text-align: center;
+}
+
+.bg-memes {
+   min-height: 1200px;
+   background: linear-gradient(
+         180deg,
+         rgba(255, 255, 255, 0) 0%,
+         rgba(255, 141, 0, 0.6671043417366946) 100%,
+         rgba(255, 146, 3, 0) 100%
+      ),
+      url("../img/karp.png") 6% center/ 400px auto no-repeat, url("../img/karp.png") 94% center/ 400px auto no-repeat,
+      url("../img/memes.png") center center / 500px 500px no-repeat fixed, rgba(189, 46, 245, 0.548);
+}
+
+.bg-memes-1 {
+   min-height: 1200px;
+   background: linear-gradient(
+         0deg,
+         rgba(255, 255, 255, 0) 0%,
+         rgba(0, 146, 255, 0.6671043417366946) 100%,
+         rgba(255, 146, 3, 0) 100%
+      ),
+      url("../img/memes.png") 10% center/ 250px auto no-repeat, url("../img/memes.png") 90% center/ 250px auto no-repeat,
+      url("../img/karp.png") center center / 500px 300px no-repeat fixed, rgba(170, 230, 59, 0.548);
+}
